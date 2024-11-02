@@ -53,7 +53,7 @@ me.say_hi()
 <details>
 <summary>☁️ Cloud & DevOps</summary>
 <br>
-<img src="https://skillicons.dev/icons?i=aws,docker,git,kubernetes,jenkins" />
+<img src="https://skillicons.dev/icons?i=aws,docker,git,jenkins,Mlflow" />
 </details>
 
 <details>
