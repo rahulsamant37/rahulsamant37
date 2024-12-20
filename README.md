@@ -75,68 +75,12 @@ me.say_hi()
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=rahulsamant37&theme=tokyonight&hide_border=true" />
 </div>
 
-### 🎯 My AI/ML Journey
+### 🐍 Contribution Graph Snake Animation
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="python" width="65" height="65" />
-        <br>Python
-      </td>
-      <td align="center" width="96">
-        <img src="https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/scikit.svg" alt="sklearn" width="65" height="65" />
-        <br>Scikit
-      </td>
-      <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="docker" width="65" height="65" />
-        <br>Docker
-      </td>
-      <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="kubernetes" width="65" height="65" />
-        <br>Kubernetes
-      </td>
-      <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="aws" width="65" height="65" />
-        <br>AWS
-      </td>
-      <td align="center" width="96">
-        <img src="https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/tensorflow.svg" alt="tensorflow" width="65" height="65" />
-        <br>TensorFlow
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="96">
-        <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="65" height="65" />
-        <br>PyTorch
-      </td>
-      <td align="center" width="96">
-        <img src="https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/MLflow-logo-final-black.png" alt="mlflow" width="65" height="65" />
-        <br>MLflow
-      </td>
-      <td align="center" width="96">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="mongodb" width="65" height="65" />
-        <br>MongoDB
-      </td>
-      <td align="center" width="96">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postgresql" width="65" height="65" />
-        <br>PostgreSQL
-      </td>
-      <td align="center" width="96">
-        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="65" height="65" />
-        <br>Git
-      </td>
-      <td align="center" width="96">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="65" height="65" />
-        <br>Linux
-      </td>
-    </tr>
-  </table>
+![GitHub Contribution Snake Animation](https://raw.githubusercontent.com/rahulsamant37/rahulsamant37/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
-  <!-- Add a cool quote -->
-  <br>
-  <i>"Building the future with AI, one model at a time 🚀"</i>
-</div>
+![GitHub Contribution Snake Animation Dark](https://raw.githubusercontent.com/rahulsamant37/rahulsamant37/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+
 
 ### 🎮 Let's Connect and Build Together!
 
