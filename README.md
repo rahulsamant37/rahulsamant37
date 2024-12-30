@@ -85,7 +85,7 @@ me.say_hi()
 ### 🎮 Let's Connect and Build Together!
 
 <div align="center">
-  <a href="https://linkedin.com/in/rahulsamant37" target="_blank">
+  <a href="https://www.linkedin.com/in/rahul-samant-kb37/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:rahulsamantcoc2@gmail.com" target="_blank">
