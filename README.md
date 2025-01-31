@@ -25,7 +25,7 @@ class DataScientist:
         self.name = "Rahul Samant"
         self.role = "Data Scientist"
         self.language_spoken = ["Hindi", "English"]
-        self.current_focus = ["GenAI", "LLMs", "NLP", "Agentic AI", "Chatbot", "AWS"]
+        self.current_focus = ["GenAI", "LLMs", "NLP", "Agentic AI", "Chatbot", "AWS", "MongoDB"]
     
     def say_hi(self):
         print("Thanks for dropping by! Let's build something amazing together!")
