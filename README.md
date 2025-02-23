@@ -1,101 +1,120 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=47A3FF&center=true&vCenter=true&random=false&width=435&lines=Hi+%F0%9F%91%8B+I'm+Rahul+Samant;Data+Scientist;ML+Engineer;AI+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=47A3FF&center=true&vCenter=true&random=false&width=600&lines=Hello+Everyone!+%F0%9F%91%8B+I'm+Rahul+Samant;Data+Scientist+%26+ML+Engineer;AI+Solutions+Architect" alt="Typing SVG" />
 </div>
 
-<h3 align="center">Crafting AI Solutions & Exploring the Data Universe 🌌</h3>
+<h3 align="center">🚀 Transforming Data into Intelligence | Building the Future with AI 🤖</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=rahulsamant37&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
   <img src="https://img.shields.io/github/followers/rahulsamant37?label=Followers&style=social" alt="followers" />
-  <img src="https://img.shields.io/badge/Data%20Science-Enthusiast-brightgreen" alt="data science" />
-  <img src="https://img.shields.io/badge/AI-Passionate-blue" alt="ai" />
+  <img src="https://img.shields.io/badge/Open%20Source-💚-brightgreen" alt="open source" />
+  <img src="https://img.shields.io/badge/AI%20Research-🔬-blue" alt="research" />
 </p>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rahulsamant37&theme=tokyonight&no-frame=true&row=1&&margin-w=20&no-bg=true" alt="trophy" />
+  <img src="https://github-profile-trophy.vercel.app/?username=rahulsamant37&theme=nord&no-frame=true&row=1&&margin-w=20&no-bg=true" alt="trophy" />
 </div>
 
 ---
 
-### 🧙‍♂️ Data Wizard's Arsenal
+### 👨‍💻 About Me
 
 ```python
-class DataScientist:
+class AIEngineer:
     def __init__(self):
         self.name = "Rahul Samant"
-        self.role = "Data Scientist"
-        self.language_spoken = ["Hindi", "English"]
-        self.current_focus = ["GenAI", "LLMs", "NLP", "Agentic AI", "Chatbot", "AWS", "MongoDB", "BIG Data"]
+        self.role = "Data Scientist & ML Engineer"
+        self.location = "Building AI Solutions 🌍"
+        self.expertise = {
+            "AI/ML": ["LLMs", "GenAI", "NLP", "Computer Vision"],
+            "Infrastructure": ["AWS", "MLOps", "Distributed Systems"],
+            "Data": ["Big Data", "MongoDB", "SQL", "Data Pipeline"],
+        }
+        self.current_research = ["Agentic AI", "Multi-Modal LLMs", "RAG Systems"]
     
-    def say_hi(self):
-        print("Thanks for dropping by! Let's build something amazing together!")
+    def life_motto(self):
+        return "Transforming ideas into intelligent solutions, one model at a time! 🚀"
 
-me = DataScientist()
-me.say_hi()
+me = AIEngineer()
+print(me.life_motto())
 ```
 
-### 🎯 Current Adventures
+### 🔥 What I'm Up To
 
-- 🔭 Exploring the realms of **Large Language Models**
-- 🌱 Building **GenAI applications** that solve real-world problems
-- 💡 Experimenting with **MLOps** and **AI Infrastructure**
-- 🎯 Creating **end-to-end ML pipelines**
-- ⚡ Fun fact: I debug with `print("here")` statements 😅
+- 🧠 Architecting **Large Language Model** applications at scale
+- 🛠️ Developing **RAG-powered AI solutions** for enterprise use cases
+- 📊 Building robust **MLOps pipelines** for production deployment
+- 🌟 Contributing to open-source **AI projects**
+- 📚 Researching **multi-modal AI systems** and their applications
 
-### 🛠️ Magical Toolbox
+### 💻 Tech Stack
 
-<details>
-<summary>🐍 Languages & Frameworks</summary>
+<details open>
+<summary>🤖 AI & Machine Learning</summary>
 <br>
-<img src="https://skillicons.dev/icons?i=python,mysql,html,css,js,flask,tensorflow" />
+<p align="left">
+  <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-🦜-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Hugging_Face-🤗-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/MLflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue" />
+</p>
 </details>
 
 <details>
 <summary>☁️ Cloud & DevOps</summary>
 <br>
-<img src="https://skillicons.dev/icons?i=aws,docker,git,jenkins,Mlflow" />
+<p align="left">
+  <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white" />
+</p>
 </details>
 
 <details>
-<summary>🤖 AI/ML Arsenal</summary>
+<summary>📊 Data Engineering</summary>
 <br>
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Langchain](https://img.shields.io/badge/🦜_Langchain-12100E?style=for-the-badge)
-![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+<p align="left">
+  <img src="https://img.shields.io/badge/Apache%20Spark-%23E25A1C.svg?style=for-the-badge&logo=Apache%20Spark&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache%20Airflow-%23017CEE.svg?style=for-the-badge&logo=Apache%20Airflow&logoColor=white" />
+</p>
 </details>
 
-### 📊 Magical Stats
+### 📈 GitHub Analytics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=rahulsamant37&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=rahulsamant37&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=rahulsamant37&show_icons=true&theme=nord&hide_border=true&include_all_commits=true&count_private=true" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=rahulsamant37&theme=nord&hide_border=true" />
 </div>
 
-### 🐍 Contribution Graph Snake Animation
+<div align="center">
+  <img width="60%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rahulsamant37&theme=nord_dark" />
+</div>
 
-![GitHub Contribution Snake Animation](https://raw.githubusercontent.com/rahulsamant37/rahulsamant37/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+### 🎯 Latest Projects
 
-![GitHub Contribution Snake Animation Dark](https://raw.githubusercontent.com/rahulsamant37/rahulsamant37/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+- [**LLM-RAG-Engine**](https://github.com/rahulsamant37/llm-rag-engine) - Enterprise-grade RAG system with vector stores
+- [**AI-Agents-Framework**](https://github.com/rahulsamant37/ai-agents) - Multi-agent system for complex task automation
+- [**MLOps-Pipeline**](https://github.com/rahulsamant37/mlops-pipeline) - Production-ready ML deployment framework
 
-
-### 🎮 Let's Connect and Build Together!
+### 🤝 Let's Connect!
 
 <div align="center">
   <a href="https://www.linkedin.com/in/rahul-samant-kb37/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:rahulsamantcoc2@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/rahulsamant37" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=twinkling" />
 </div>
