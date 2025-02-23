@@ -84,22 +84,19 @@ print(me.life_motto())
 </p>
 </details>
 
-### 📈 GitHub Analytics
+
+### 📊 Magical Stats
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=rahulsamant37&show_icons=true&theme=nord&hide_border=true&include_all_commits=true&count_private=true" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=rahulsamant37&theme=nord&hide_border=true" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=rahulsamant37&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=rahulsamant37&theme=tokyonight&hide_border=true" />
 </div>
 
-<div align="center">
-  <img width="60%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rahulsamant37&theme=nord_dark" />
-</div>
+### 🐍 Contribution Graph Snake Animation
 
-### 🎯 Latest Projects
+![GitHub Contribution Snake Animation](https://raw.githubusercontent.com/rahulsamant37/rahulsamant37/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
-- [**LLM-RAG-Engine**](https://github.com/rahulsamant37/llm-rag-engine) - Enterprise-grade RAG system with vector stores
-- [**AI-Agents-Framework**](https://github.com/rahulsamant37/ai-agents) - Multi-agent system for complex task automation
-- [**MLOps-Pipeline**](https://github.com/rahulsamant37/mlops-pipeline) - Production-ready ML deployment framework
+![GitHub Contribution Snake Animation Dark](https://raw.githubusercontent.com/rahulsamant37/rahulsamant37/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
 ### 🤝 Let's Connect!
 
