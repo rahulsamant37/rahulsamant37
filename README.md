@@ -26,7 +26,7 @@ class AIEngineer:
         self.role = "Data Scientist & ML Engineer"
         self.location = "Building AI Solutions 🌍"
         self.expertise = {
-            "AI/ML": ["LLMs", "GenAI", "NLP", "Computer Vision"],
+            "AI/ML": ["LLMs", "GenAI", "NLP"],
             "Infrastructure": ["HDFS", "AWS", "MLOps"],
             "Data": ["Big Data", "MongoDB", "SQL", "Data Pipeline"],
         }
