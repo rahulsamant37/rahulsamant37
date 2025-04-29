@@ -30,7 +30,7 @@ class AIEngineer:
             "Infrastructure": ["HDFS", "AWS", "MLOps"],
             "Data": ["Big Data", "MongoDB", "SQL", "Data Pipeline"],
         }
-        self.current_research = ["Agentic AI", "Multi-Modal LLMs", "RAG Systems"]
+        self.current_research = ["Agentic AI", "Multi-Modal LLMs", "RAG Systems", "MCP Server"]
     
     def life_motto(self):
         return "Transforming ideas into intelligent solutions, one model at a time! 🚀"
