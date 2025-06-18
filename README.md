@@ -24,7 +24,7 @@ class AIEngineer:
     def __init__(self):
         self.name = "Rahul Samant"
         self.role = "Data Scientist & ML Engineer"
-        self.location = "Building AI Solutions 🌍"
+        self.location = "Building AI Agents 🌍"
         self.expertise = {
             "AI/ML": ["LLMs", "GenAI", "NLP"],
             "Infrastructure": ["Spark", "AWS", "MLOps"],
