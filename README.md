@@ -27,7 +27,7 @@ class AIEngineer:
         self.location = "Building AI Agents 🌍"
         self.expertise = {
             "AI/ML": ["LLMs", "GenAI", "NLP"],
-            "Infrastructure": ["Spark", "AWS", "MLOps"],
+            "Infrastructure": ["Spark", "AWS", "MLOps", 'GCP'],
             "Data": ["Big Data", "MongoDB", "SQL", "Data Pipeline"],
         }
         self.current_research = ["Agentic AI", "Multi-Modal LLMs", "RAG Systems", "MCP Server", "A2A Protocol"]
