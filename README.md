@@ -28,7 +28,7 @@ class AIEngineer:
         self.expertise = {
             "AI/ML": ["LLMs", "GenAI", "NLP", "RAG", "Fine Tuning"],
             "Infrastructure": ["Spark", "AWS", "MLOps"],
-            "Data": ["Big Data", "MongoDB", "SQL", "Data Pipeline"],
+            "Data": ["DSA", "MongoDB", "SQL", "Data Pipeline"],
         }
         self.current_research = ["Agentic AI", "Multi-Modal LLMs", "RAG Systems", "MCP Server", "A2A Protocol", "DSA"]
     
