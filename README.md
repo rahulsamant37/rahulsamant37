@@ -1,18 +1,18 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=47A3FF&center=true&vCenter=true&random=false&width=600&lines=Hello+Everyone!+%F0%9F%91%8B+I'm+Rahul+Samant;Data+Scientist+%26+ML+Engineer;AI+Solutions+Architect" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=28&amp;duration=3000&amp;pause=1000&amp;color=47A3FF&amp;center=true&amp;vCenter=true&amp;random=false&amp;width=600&amp;lines=Hello+Everyone!+%F0%9F%91%8B+I'm+Rahul+Samant;Data+Scientist+%26+ML+Engineer;AI+Solutions+Architect" alt="Typing SVG" />
 </div>
 
 <h3 align="center">🚀 Transforming Data into Intelligence | Building the Future with AI 🤖</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=rahulsamant37&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/rahulsamant37?label=Followers&style=social" alt="followers" />
-  <img src="https://img.shields.io/badge/Open%20Source-💚-brightgreen" alt="open source" />
-  <img src="https://img.shields.io/badge/AI%20Research-🔬-blue" alt="research" />
+  <img src="https://komarev.com/ghpvc/?username=rahulsamant37&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/rahulsamant37?label=Followers&amp;style=social" alt="Followers" />
+  <img src="https://img.shields.io/badge/Open%20Source-%F0%9F%92%9A-brightgreen" alt="Open Source" />
+  <img src="https://img.shields.io/badge/AI%20Research-%F0%9F%94%AC-blue" alt="AI Research" />
 </p>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rahulsamant37&theme=nord&no-frame=true&row=1&&margin-w=20&no-bg=true" alt="trophy" />
+  <img src="https://github-profile-trophy.vercel.app/?username=rahulsamant37&amp;theme=nord&amp;no-frame=true&amp;row=1&amp;margin-w=20&amp;no-bg=true" alt="GitHub Trophies" />
 </div>
 
 ---
