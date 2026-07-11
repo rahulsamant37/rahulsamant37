@@ -1,7 +1,7 @@
 <a href="https://github.com/rahulsamant37/rahulsamant37">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rahulsamant37/rahulsamant37/main/my-photo.png">
-    <img alt="Rahul Samant's GitHub Profile README" src="https://raw.githubusercontent.com/rahulsamant37/rahulsamant37/main/my-photo.png">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rahulsamant37/rahulsamant37/main/dark_mode.svg">
+    <img alt="Rahul Samant's GitHub Profile README" src="https://raw.githubusercontent.com/rahulsamant37/rahulsamant37/main/light_mode.svg">
   </picture>
 </a>
 

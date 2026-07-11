@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+.key {fill: #0550ae;}
+.value {fill: #0a3069;}
+.cc {fill: #6e7781;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="985px" height="530px" fill="#ffffff" rx="15"/>
+<text x="15" y="30" fill="#24292f" class="ascii">
+<tspan x="15" y="30">@@@@@@@@@@@@@@@@@@@@@%%%%%@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15" y="50">@@@@@@@@@@%%%%%%%%@%%%%%%%#%%%%%%%@@@@@@@@@@@</tspan>
+<tspan x="15" y="70">@@%%%%%%%%%%%%%%%#****+=+#*#%%%%%%%%%%%@@@@@@</tspan>
+<tspan x="15" y="90">%%%%%%%%%%%%%%%%#+-++***++#%%%%%%%%%%%%%%%@@@</tspan>
+<tspan x="15" y="110">%%%%%%%%%%#######*=++++==########%%%%%%%%%%%@</tspan>
+<tspan x="15" y="130">%%%%%%%####*******=***==*****#######%%%%%%%%%</tspan>
+<tspan x="15" y="150">%%%######*+++*++++++++=+++++++***#####%%%%%%%</tspan>
+<tspan x="15" y="170">######***++++=+++-==+==++++++==+**#####%%%%%%</tspan>
+<tspan x="15" y="190">###*++=-=++*+=++*==+++*++*+*++==+**#####%%%%%</tspan>
+<tspan x="15" y="210">++*= . :*++#++++++**+**++#**+++=+++**####%%%%</tspan>
+<tspan x="15" y="230">::=::+-+***#*++**+*#**+#%#****=:=--+-=##*##++</tspan>
+</text>
+<text x="390" y="30" fill="#24292f">
+<tspan x="390" y="30">rahul@samant</tspan> -———————————————————————————————————————————-—-
+<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Data Scientist &amp; ML Engineer</tspan>
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Location</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">Building AI Agents 🌍</tspan>
+<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">Transforming data into intelligence!</tspan>
+<tspan x="390" y="110" class="cc">. </tspan>
+<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">Expertise</tspan>.<tspan class="key">AI/ML</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">LLMs, GenAI, NLP, RAG, Fine Tuning</tspan>
+<tspan x="390" y="150" class="cc">. </tspan><tspan class="key">Expertise</tspan>.<tspan class="key">Infra</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">Spark, AWS, MLOps</tspan>
+<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Expertise</tspan>.<tspan class="key">Data</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">DSA, MongoDB, SQL, Data Pipeline</tspan>
+<tspan x="390" y="190" class="cc">. </tspan>
+<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Current_Research</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">Agentic AI, Multi-Modal LLMs</tspan>
+<tspan x="390" y="230" class="cc">. </tspan><tspan class="key">Current_Research</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">RAG Systems, MCP Server, A2A Protocol</tspan>
+<tspan x="390" y="270">- Contact</tspan> -——————————————————————————————————————————————-—-
+<tspan x="390" y="290" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">rahulsamantcoc2@gmail.com</tspan>
+<tspan x="390" y="310" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">rahul-samant-kb37</tspan>
+</text>
+</svg>
