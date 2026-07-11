@@ -27,33 +27,6 @@
 
 <br/>
 
-## 👨‍💻 System Initialization
-
-```cpp
-#include <rahul/profile.hpp>
-#include <iostream>
-
-class RahulSamant : public Core::SystemsEngineer {
-public:
-    RahulSamant() {
-        education    = "MTech @ IIT Bombay";
-        focus_areas  = {"R&D", "Quantitative Finance", "High-Frequency Trading"};
-        core_stack   = {"C++20", "C", "Python", "Arch Linux"};
-        fundamentals = {"Operating Systems", "DBMS", "Computer Networks", "OOPs"};
-        research     = {"Low-Latency Systems", "Order Book Dynamics", "AI in Quant"};
-    }
-    
-    constexpr auto get_motto() const {
-        return "Comfort < Motivation < Discipline < Obsession";
-    }
-};
-
-int main() {
-    RahulSamant dev;
-    std::cout << dev.get_motto() << std::endl;
-    return 0;
-}
-```
 
 ## 🔭 Current Trajectory
 
