@@ -38,7 +38,7 @@ public:
     RahulSamant() {
         education    = "MTech @ IIT Bombay";
         focus_areas  = {"R&D", "Quantitative Finance", "High-Frequency Trading"};
-        core_stack   = {"C++20", "C", "Python", "SQL"};
+        core_stack   = {"C++20", "C", "Python", "Arch Linux"};
         fundamentals = {"Operating Systems", "DBMS", "Computer Networks", "OOPs"};
         research     = {"Low-Latency Systems", "Order Book Dynamics", "AI in Quant"};
     }
@@ -67,9 +67,9 @@ int main() {
 
 | Domain | Technologies |
 | :--- | :--- |
-| **Core & Systems** | <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white" /> <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" /> |
-| **Data & AI** | <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/LangGraph-🦜-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/LangChain-🦜-brightgreen?style=for-the-badge" /> <img src="https://img.shields.io/badge/LlamaIndex-🦙-purple?style=for-the-badge" /> <img src="https://img.shields.io/badge/Hugging_Face-🤗-yellow?style=for-the-badge" /> <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" /> |
-| **Infrastructure** | <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" /> <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" /> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" /> |
+| **Core & Systems** | <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white" /> <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" /> <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" /> |
+| **Data & AI** | <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/LangGraph-🦜-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/LangChain-🦜-brightgreen?style=for-the-badge" /> <img src="https://img.shields.io/badge/LlamaIndex-🦙-purple?style=for-the-badge" /> |
+| **Infrastructure** | <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" /> <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" /> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" /> |
 
 <br/>
 
