@@ -1,28 +1,27 @@
 """
-Build dark_mode.svg and light_mode.svg from the user's hand-crafted ASCII art.
+Build dark_mode.svg and light_mode.svg with:
+  LEFT:  User's hand-crafted ASCII art (125 chars × 68 lines) at small font
+  RIGHT: neofetch-style info panel at normal font
 
-The art is 125 chars wide x 68 lines tall — displayed as a full-width banner.
-GitHub profile README container is ~854px wide.
-At font-size 6.8px with Consolas monospace, 125 chars ≈ 850px. Perfect fit.
-Line height ~9px → 68 lines ≈ 612px + padding = ~630px.
+Uses SVG viewBox for responsive scaling to fit GitHub's ~854px profile area.
+
+Layout (internal coordinates):
+  Canvas:     1500 × 640
+  ASCII art:  font 8.5px, x=8, ~638px wide  (125 × 5.1px)
+  Info panel:  font 15px,  x=660, ~840px wide
 """
 import sys
 
 
 def read_ascii_art(filepath):
-    """Read ASCII art file and return list of lines."""
     with open(filepath, "r") as f:
-        lines = f.readlines()
-    # Strip trailing newlines but preserve spaces
-    lines = [line.rstrip("\n\r") for line in lines]
-    # Remove trailing empty lines
+        lines = [line.rstrip("\n\r") for line in f.readlines()]
     while lines and lines[-1].strip() == "":
         lines.pop()
     return lines
 
 
 def escape_xml(s):
-    """Escape XML special characters."""
     return (s
             .replace("&", "&amp;")
             .replace("<", "&lt;")
@@ -32,57 +31,139 @@ def escape_xml(s):
 
 
 def generate_svg(ascii_lines, mode="dark"):
-    """
-    Generate full-width ASCII art SVG that fits GitHub's profile README.
-
-    Sizing math:
-    - GitHub profile README width: ~854px
-    - Consolas char width at 6.8px font-size: ~6.8px * 0.6 ≈ 4.08px per char
-    - But with size-adjust: 109%, effective: ~4.45px per char
-    - 125 chars × 4.45px ≈ 556px... that's too narrow.
-    - Actually at font-size 6.8px, monospace Consolas = ~4.1px per char
-    - We want 125 chars to fill ~835px → each char ≈ 6.68px
-    - So font-size ~11px should work (Consolas at 11px ≈ 6.6px per char)
-    - At 11px font, line-height ~13px → 68 lines = 884px... too tall
-    - Let's use font-size 7px, line-height 8.5px → 68 × 8.5 = 578px
-    - 125 chars at 7px Consolas ≈ 125 × 4.2 = 525px
-    
-    Actually, let's just set the SVG viewBox and let it scale to fill the container.
-    The SVG will have a fixed coordinate system internally and scale to fit.
-    """
     if mode == "dark":
-        bg, fg = "#161b22", "#c9d1d9"
+        bg, fg       = "#161b22", "#c9d1d9"
+        key, val, cc = "#ffa657", "#a5d6ff", "#616e7f"
     else:
-        bg, fg = "#ffffff", "#24292f"
+        bg, fg       = "#ffffff", "#24292f"
+        key, val, cc = "#0550ae", "#0a3069", "#6e7781"
 
-    # Internal coordinate system
-    # Use font-size 10px with line-height 12px
-    font_size = 10
-    line_height = 12
-    char_width = 6.1  # Consolas at 10px ≈ 6.1px per char (with size-adjust)
-    
-    padding_x = 10
-    padding_y = 14
-    
-    num_lines = len(ascii_lines)
-    max_width = max(len(line) for line in ascii_lines)
-    
-    svg_width = int(max_width * char_width + padding_x * 2)
-    svg_height = int(num_lines * line_height + padding_y * 2)
+    # ── ASCII art sizing ──
+    art_font   = 8.5
+    art_lh     = 9.2          # line height
+    art_x      = 8
+    art_y0     = 16           # first baseline
+    art_w      = 125 * 5.1    # ≈ 637px
 
-    # Build tspans
-    tspans = ""
-    y = padding_y + font_size  # first baseline
+    # ── Info panel sizing ──
+    info_font  = 15
+    info_lh    = 20           # line height
+    info_x     = int(art_w) + 30   # 667
+    info_y0    = 26                # first baseline (vertically centered-ish)
+
+    # ── Canvas ──
+    canvas_w   = info_x + 830      # 667 + 830 = 1497 ≈ 1500
+    canvas_h   = max(len(ascii_lines) * art_lh + art_y0 + 8, 640)
+
+    # Build ASCII tspans
+    art_tspans = ""
+    y = art_y0
     for line in ascii_lines:
-        tspans += f'<tspan x="{padding_x}" y="{y}">{escape_xml(line)}</tspan>\n'
-        y += line_height
+        art_tspans += f'<tspan x="{art_x}" y="{y:.1f}">{escape_xml(line)}</tspan>\n'
+        y += art_lh
+
+    # ── Info content (neofetch style, matching Andrew6rant layout) ──
+    ix = info_x
+    def row(y_val, content):
+        return f'<tspan x="{ix}" y="{y_val}">{content}</tspan>\n'
+
+    def info_line(y_val, k, dots, v, k2=None):
+        """Build a neofetch-style line: . key: .... value"""
+        if k2:
+            return row(y_val,
+                f'<tspan class="cc">. </tspan>'
+                f'<tspan class="key">{k}</tspan>.'
+                f'<tspan class="key">{k2}</tspan>:'
+                f'<tspan class="cc"> {dots} </tspan>'
+                f'<tspan class="value">{v}</tspan>')
+        return row(y_val,
+            f'<tspan class="cc">. </tspan>'
+            f'<tspan class="key">{k}</tspan>:'
+            f'<tspan class="cc"> {dots} </tspan>'
+            f'<tspan class="value">{v}</tspan>')
+
+    def blank(y_val):
+        return row(y_val, '<tspan class="cc">. </tspan>')
+
+    def section(y_val, title, dashes):
+        return row(y_val, f'{title} -{dashes}-')
+
+    iy = info_y0
+    info_tspans = ""
+
+    # Header
+    info_tspans += row(iy, 'rahul@samant')
+    iy += info_lh
+    info_tspans += row(iy, '-' * 58)
+    iy += info_lh
+
+    info_tspans += info_line(iy, "Role", "...................", "Data Scientist &amp; ML Engineer")
+    iy += info_lh
+    info_tspans += info_line(iy, "Location", ".................", "Building AI Agents 🌍")
+    iy += info_lh
+    info_tspans += info_line(iy, "IDE", "....................", "VSCode, Cursor, Windsurf")
+    iy += info_lh
+    info_tspans += blank(iy)
+    iy += info_lh
+
+    info_tspans += info_line(iy, "Languages", "..", "Python, JavaScript, SQL", "Code")
+    iy += info_lh
+    info_tspans += info_line(iy, "Languages", "....", "LLMs, GenAI, NLP, RAG", "AI")
+    iy += info_lh
+    info_tspans += info_line(iy, "Languages", "........", "Hindi, English", "Real")
+    iy += info_lh
+    info_tspans += blank(iy)
+    iy += info_lh
+
+    info_tspans += info_line(iy, "Expertise", "......", "LLMs, RAG, Fine Tuning", "AI")
+    iy += info_lh
+    info_tspans += info_line(iy, "Expertise", "....", "Spark, AWS, MLOps, Docker", "Infra")
+    iy += info_lh
+    info_tspans += info_line(iy, "Expertise", "....", "MongoDB, SQL, Data Pipelines", "Data")
+    iy += info_lh
+    info_tspans += blank(iy)
+    iy += info_lh
+
+    info_tspans += info_line(iy, "Research", "........", "Agentic AI, Multi-Modal LLMs")
+    iy += info_lh
+    info_tspans += info_line(iy, "Research", "........", "RAG Systems, MCP Server, A2A")
+    iy += info_lh
+    info_tspans += blank(iy)
+    iy += info_lh
+
+    info_tspans += info_line(iy, "Tools", ".............", "PyTorch, TensorFlow, LangChain")
+    iy += info_lh
+    info_tspans += info_line(iy, "Cloud", ".............", "AWS, Docker, Kubernetes, Jenkins")
+    iy += info_lh * 2
+
+    # Contact section
+    info_tspans += section(iy, "- Contact", "—" * 24)
+    iy += info_lh
+    info_tspans += info_line(iy, "Email", "..................", "rahulsamantcoc2@gmail.com")
+    iy += info_lh
+    info_tspans += info_line(iy, "LinkedIn", "...........................", "rahul-samant-kb37")
+    iy += info_lh
+    info_tspans += info_line(iy, "GitHub", ".............................", "rahulsamant37")
+    iy += info_lh * 2
+
+    # GitHub Stats section
+    info_tspans += section(iy, "- GitHub Stats", "—" * 21)
+    iy += info_lh
+    info_tspans += info_line(iy, "Open Source", "...............................", "💚")
+    iy += info_lh
+    info_tspans += info_line(iy, "AI Research", "...............................", "🔬")
+    iy += info_lh * 2
+
+    # Motto
+    info_tspans += section(iy, "- Motto", "—" * 24)
+    iy += info_lh
+    info_tspans += row(iy, f'<tspan class="cc">. </tspan><tspan class="value">Transforming data into intelligence! 🚀</tspan>')
 
     svg = f"""<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" 
-     font-family="ConsolasFallback,Consolas,Monaco,monospace" 
-     viewBox="0 0 {svg_width} {svg_height}"
-     width="100%"
-     font-size="{font_size}px">
+<svg xmlns="http://www.w3.org/2000/svg"
+     font-family="ConsolasFallback,Consolas,Monaco,monospace"
+     viewBox="0 0 {canvas_w:.0f} {canvas_h:.0f}"
+     width="100%">
 <style>
 @font-face {{
   src: local('Consolas'), local('Consolas Bold'), local('Monaco');
@@ -90,11 +171,16 @@ def generate_svg(ascii_lines, mode="dark"):
   font-display: swap;
   size-adjust: 109%;
 }}
+.key  {{ fill: {key}; }}
+.value {{ fill: {val}; }}
+.cc   {{ fill: {cc}; }}
 text, tspan {{ white-space: pre; }}
 </style>
-<rect width="{svg_width}" height="{svg_height}" fill="{bg}" rx="10"/>
-<text x="{padding_x}" y="{padding_y + font_size}" fill="{fg}">
-{tspans}</text>
+<rect width="{canvas_w:.0f}" height="{canvas_h:.0f}" fill="{bg}" rx="12"/>
+<text x="{art_x}" y="{art_y0}" fill="{fg}" font-size="{art_font}px">
+{art_tspans}</text>
+<text x="{info_x}" y="{info_y0}" fill="{fg}" font-size="{info_font}px">
+{info_tspans}</text>
 </svg>
 """
     return svg
@@ -102,10 +188,9 @@ text, tspan {{ white-space: pre; }}
 
 if __name__ == "__main__":
     art_file = sys.argv[1] if len(sys.argv) > 1 else "ascii-art.txt"
-    
     ascii_lines = read_ascii_art(art_file)
-    print(f"ASCII art: {max(len(l) for l in ascii_lines)} chars wide × {len(ascii_lines)} lines tall")
-    
+    print(f"ASCII art: {max(len(l) for l in ascii_lines)} chars × {len(ascii_lines)} lines")
+
     with open("dark_mode.svg", "w") as f:
         f.write(generate_svg(ascii_lines, mode="dark"))
     with open("light_mode.svg", "w") as f:
