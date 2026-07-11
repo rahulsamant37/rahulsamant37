@@ -1,9 +1,3 @@
-<a href="https://github.com/rahulsamant37/rahulsamant37">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./dark_mode.svg">
-    <img alt="Rahul Samant's GitHub Profile README" src="./light_mode.svg" width="100%">
-  </picture>
-</a>
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=28&amp;duration=3000&amp;pause=1000&amp;color=47A3FF&amp;center=true&amp;vCenter=true&amp;random=false&amp;width=600&amp;lines=Hello+Everyone!+%F0%9F%91%8B+I'm+Rahul+Samant;Data+Scientist+%26+ML+Engineer;AI+Solutions+Architect" alt="Typing SVG" />
@@ -17,6 +11,12 @@
   <img src="https://img.shields.io/badge/Open%20Source-%F0%9F%92%9A-brightgreen" alt="Open Source" />
   <img src="https://img.shields.io/badge/AI%20Research-%F0%9F%94%AC-blue" alt="AI Research" />
 </p>
+<a href="https://github.com/rahulsamant37/rahulsamant37">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dark_mode.svg">
+    <img alt="Rahul Samant's GitHub Profile README" src="./light_mode.svg" width="100%">
+  </picture>
+</a>
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=rahulsamant37&amp;theme=nord&amp;no-frame=true&amp;row=1&amp;margin-w=20&amp;no-bg=true" alt="GitHub Trophies" />
