@@ -1,3 +1,10 @@
+<a href="https://github.com/rahulsamant37/rahulsamant37">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rahulsamant37/rahulsamant37/main/my-photo.png">
+    <img alt="Rahul Samant's GitHub Profile README" src="https://raw.githubusercontent.com/rahulsamant37/rahulsamant37/main/my-photo.png">
+  </picture>
+</a>
+
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=28&amp;duration=3000&amp;pause=1000&amp;color=47A3FF&amp;center=true&amp;vCenter=true&amp;random=false&amp;width=600&amp;lines=Hello+Everyone!+%F0%9F%91%8B+I'm+Rahul+Samant;Data+Scientist+%26+ML+Engineer;AI+Solutions+Architect" alt="Typing SVG" />
 </div>
