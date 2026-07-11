@@ -52,7 +52,7 @@ def generate_svg(ascii_lines, mode="dark"):
     info_y0    = 26                # first baseline (vertically centered-ish)
 
     # ── Canvas ──
-    canvas_w   = info_x + 500      # Reduce right side padding
+    canvas_w   = info_x + 430      # Reduce right side padding further
     canvas_h   = max(len(ascii_lines) * art_lh + art_y0 + 8, 640)
 
     # Build ASCII tspans
