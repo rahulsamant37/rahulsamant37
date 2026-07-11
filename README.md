@@ -1,15 +1,15 @@
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=28&amp;duration=3000&amp;pause=1000&amp;color=47A3FF&amp;center=true&amp;vCenter=true&amp;random=false&amp;width=600&amp;lines=Hello+Everyone!+%F0%9F%91%8B+I'm+Rahul+Samant;Data+Scientist+%26+ML+Engineer;AI+Solutions+Architect" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=28&amp;duration=3000&amp;pause=1000&amp;color=47A3FF&amp;center=true&amp;vCenter=true&amp;random=false&amp;width=600&amp;lines=Hello+Everyone!+%F0%9F%91%8B+I'm+Rahul+Samant;MTech+%40+IIT+Bombay;Quant+%26+HFT+Enthusiast;R%26D+Systems+Engineer" alt="Typing SVG" />
 </div>
 
-<h3 align="center">🚀 Transforming Data into Intelligence | Building the Future with AI 🤖</h3>
+<h3 align="center">🚀 Engineering High-Performance Systems | Bridging AI, Quant, and R&D 🤖</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=rahulsamant37&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/rahulsamant37?label=Followers&amp;style=social" alt="Followers" />
   <img src="https://img.shields.io/badge/Open%20Source-%F0%9F%92%9A-brightgreen" alt="Open Source" />
-  <img src="https://img.shields.io/badge/AI%20Research-%F0%9F%94%AC-blue" alt="AI Research" />
+  <img src="https://img.shields.io/badge/R%26D%20Focus-%F0%9F%94%AC-blue" alt="R&D Focus" />
 </p>
 <a href="https://github.com/rahulsamant37/rahulsamant37">
   <picture>
@@ -27,67 +27,68 @@
 ### 👨‍💻 About Me
 
 ```python
-class AIEngineer:
+class SystemEngineer:
     def __init__(self):
         self.name = "Rahul Samant"
-        self.role = "Data Scientist & ML Engineer"
-        self.location = "Building AI Agents 🌍"
+        self.education = "MTech @ IIT Bombay"
+        self.focus = ["R&D", "Quantitative Finance", "High-Frequency Trading (HFT)"]
         self.expertise = {
-            "AI/ML": ["LLMs", "GenAI", "NLP", "RAG", "Fine Tuning"],
-            "Infrastructure": ["Spark", "AWS", "MLOps"],
-            "Data": ["DSA", "MongoDB", "SQL", "Data Pipeline"],
+            "Core": ["C++", "Python", "CUDA", "Rust"],
+            "Systems": ["Low Latency", "Operating Systems", "Networking"],
+            "Quant/AI": ["Stochastic Calculus", "Time Series", "Machine Learning", "LLMs"],
         }
-        self.current_research = ["Agentic AI", "Multi-Modal LLMs", "RAG Systems", "MCP Server", "A2A Protocol", "DSA"]
+        self.current_research = ["HFT Algorithms", "AI in Quant", "System Optimization"]
     
     def life_motto(self):
-        return "Transforming ideas into intelligent solutions, one model at a time! 🚀"
+        return "Comfort < Motivation < Discipline < Obsession"
 
-me = AIEngineer()
+me = SystemEngineer()
 print(me.life_motto())
 ```
 
 ### 🔥 What I'm Up To
 
-- 🧠 Architecting **Large Language Model** applications at scale
-- 🛠️ Developing **RAG-powered AI solutions** for enterprise use cases
-- 📊 Building robust **MLOps pipelines** for production deployment
-- 🌟 Contributing to open-source **AI projects**
-- 📚 Researching **multi-modal AI systems** and their applications
+- 🎓 Pursuing my **MTech at IIT Bombay**, diving deep into advanced algorithms and systems.
+- ⚡ Architecting **Low-Latency Systems** and optimizing core logic in C++ and CUDA.
+- 📈 Researching quantitative strategies and building frameworks for **High-Frequency Trading (HFT)**.
+- 🧠 Bridging the gap between **Deep Learning/LLMs** and pure mathematical/statistical modeling.
+- 🌟 Constantly pushing the boundaries in **R&D** to build highly optimized, scalable infrastructure.
 
 ### 💻 Tech Stack
 
 <details open>
-<summary>🤖 AI & Machine Learning</summary>
+<summary>⚡ Core & Systems</summary>
+<br>
+<p align="left">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+</p>
+</details>
+
+<details open>
+<summary>🤖 AI & Quantitative Modeling</summary>
 <br>
 <p align="left">
   <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" />
   <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-🦜-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Hugging_Face-🤗-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
   <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/MLflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue" />
 </p>
 </details>
 
 <details>
-<summary>☁️ Cloud & DevOps</summary>
+<summary>☁️ Infrastructure & Data</summary>
 <br>
 <p align="left">
   <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" />
   <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white" />
-</p>
-</details>
-
-<details>
-<summary>📊 Data Engineering</summary>
-<br>
-<p align="left">
   <img src="https://img.shields.io/badge/Apache%20Spark-%23E25A1C.svg?style=for-the-badge&logo=Apache%20Spark&logoColor=white" />
   <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apache%20Airflow-%23017CEE.svg?style=for-the-badge&logo=Apache%20Airflow&logoColor=white" />
 </p>
 </details>
 
