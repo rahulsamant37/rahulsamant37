@@ -71,22 +71,7 @@ int main() {
 
 <br/>
 
-## 📊 Performance Metrics
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rahulsamant37&theme=nord&no-frame=true&row=1&margin-w=20&no-bg=true" alt="GitHub Trophies" />
-</div>
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rahulsamant37&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img height="180em" src="https://streak-stats.demolab.com/?user=rahulsamant37&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahulsamant37&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-
-## 🐍 Contribution Graph
+## 🐍 Activity Matrix
 
 <p align="center">
   <picture>
