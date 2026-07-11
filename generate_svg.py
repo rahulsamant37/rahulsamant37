@@ -1,17 +1,11 @@
 """
 Build dark_mode.svg and light_mode.svg with:
   LEFT:  User's hand-crafted ASCII art (125 chars × 68 lines) at small font
-  RIGHT: neofetch-style info panel at normal font
+  RIGHT: neofetch-style info panel at normal font, perfectly justified
 
 Uses SVG viewBox for responsive scaling to fit GitHub's ~854px profile area.
-
-Layout (internal coordinates):
-  Canvas:     1500 × 640
-  ASCII art:  font 8.5px, x=8, ~638px wide  (125 × 5.1px)
-  Info panel:  font 15px,  x=660, ~840px wide
 """
 import sys
-
 
 def read_ascii_art(filepath):
     with open(filepath, "r") as f:
@@ -19,7 +13,6 @@ def read_ascii_art(filepath):
     while lines and lines[-1].strip() == "":
         lines.pop()
     return lines
-
 
 def escape_xml(s):
     return (s
@@ -29,30 +22,31 @@ def escape_xml(s):
             .replace("'", "&apos;")
             .replace('"', "&quot;"))
 
-
 def generate_svg(ascii_lines, mode="dark"):
     if mode == "dark":
         bg, fg       = "#161b22", "#c9d1d9"
         key, val, cc = "#ffa657", "#a5d6ff", "#616e7f"
+        add_c, del_c = "#3fb950", "#f85149"
     else:
         bg, fg       = "#ffffff", "#24292f"
         key, val, cc = "#0550ae", "#0a3069", "#6e7781"
+        add_c, del_c = "#1a7f37", "#cf222e"
 
     # ── ASCII art sizing ──
     art_font   = 8.5
-    art_lh     = 9.2          # line height
+    art_lh     = 9.2          
     art_x      = 8
-    art_y0     = 16           # first baseline
-    art_w      = 125 * 5.1    # ≈ 637px
+    art_y0     = 16           
+    art_w      = 125 * 5.1    
 
     # ── Info panel sizing ──
     info_font  = 15
-    info_lh    = 20           # line height
-    info_x     = int(art_w) + 30   # 667
-    info_y0    = 26                # first baseline (vertically centered-ish)
+    info_lh    = 20           
+    info_x     = int(art_w) + 30
+    info_y0    = 26           
 
     # ── Canvas ──
-    canvas_w   = info_x + 530      # Reduce right side padding further
+    canvas_w   = info_x + 470
     canvas_h   = max(len(ascii_lines) * art_lh + art_y0 + 8, 640)
 
     # Build ASCII tspans
@@ -62,13 +56,26 @@ def generate_svg(ascii_lines, mode="dark"):
         art_tspans += f'<tspan x="{art_x}" y="{y:.1f}">{escape_xml(line)}</tspan>\n'
         y += art_lh
 
-    # ── Info content (neofetch style, matching Andrew6rant layout) ──
+    # ── Info content ──
     ix = info_x
+    INFO_WIDTH = 50  # Total characters wide for the info panel to justify perfectly
+
     def row(y_val, content):
         return f'<tspan x="{ix}" y="{y_val}">{content}</tspan>\n'
 
-    def info_line(y_val, k, dots, v, k2=None):
-        """Build a neofetch-style line: . key: .... value"""
+    def info_line(y_val, k, v, k2=None):
+        """Build a perfectly justified neofetch-style line."""
+        key_str = f"{k}.{k2}" if k2 else k
+        # Calculate how many dots we need to pad
+        # Format: ". Key: ...... Value"
+        # Length of ". " = 2
+        # Length of "Key:" = len(key_str) + 1
+        # Length of " Value" = len(v) + 1
+        # Dots needed = INFO_WIDTH - 2 - (len(key_str) + 1) - (len(v) + 1)
+        dots_needed = INFO_WIDTH - 2 - len(key_str) - 1 - len(v) - 1
+        dots_needed = max(1, dots_needed)
+        dots = "." * dots_needed
+        
         if k2:
             return row(y_val,
                 f'<tspan class="cc">. </tspan>'
@@ -85,79 +92,93 @@ def generate_svg(ascii_lines, mode="dark"):
     def blank(y_val):
         return row(y_val, '<tspan class="cc">. </tspan>')
 
-    def section(y_val, title, dashes):
-        return row(y_val, f'{title} -{dashes}-')
+    def section(y_val, title):
+        # Center or pad dashes to match INFO_WIDTH
+        dashes = "—" * (INFO_WIDTH - len(title) - 1)
+        return row(y_val, f'{title} {dashes}')
 
     iy = info_y0
     info_tspans = ""
 
     # Header
-    info_tspans += row(iy, 'rahul@samant')
-    iy += info_lh
-    info_tspans += row(iy, '-' * 58)
+    title = "rahulsamant37"
+    dashes = "—" * (INFO_WIDTH - len(title) - 1)
+    info_tspans += row(iy, f"{title} {dashes}")
     iy += info_lh
 
-    info_tspans += info_line(iy, "Role", "...................", "Data Scientist &amp; ML Engineer")
+    # Creative Fields
+    info_tspans += info_line(iy, "Class", "Data Scientist &amp; ML Engineer")
     iy += info_lh
-    info_tspans += info_line(iy, "Location", ".................", "Building AI Agents 🌍")
+    info_tspans += info_line(iy, "Quest", "Architecting Agentic AI 🤖")
     iy += info_lh
-    info_tspans += info_line(iy, "IDE", "....................", "VSCode, Cursor, Windsurf")
+    info_tspans += info_line(iy, "Base", "Building AI Agents 🌍")
+    iy += info_lh
+    info_tspans += info_line(iy, "Weaponry", "VSCode, Cursor, Windsurf")
     iy += info_lh
     info_tspans += blank(iy)
     iy += info_lh
 
-    info_tspans += info_line(iy, "Languages", "..", "Python, JavaScript, SQL", "Code")
+    info_tspans += info_line(iy, "Knowledge", "Python, SQL, JavaScript", "Code")
     iy += info_lh
-    info_tspans += info_line(iy, "Languages", "....", "LLMs, GenAI, NLP, RAG", "AI")
+    info_tspans += info_line(iy, "Knowledge", "LLMs, GenAI, NLP, RAG", "AI")
     iy += info_lh
-    info_tspans += info_line(iy, "Languages", "........", "Hindi, English", "Real")
+    info_tspans += info_line(iy, "Knowledge", "PyTorch, TensorFlow", "Magic")
     iy += info_lh
-    info_tspans += blank(iy)
-    iy += info_lh
-
-    info_tspans += info_line(iy, "Expertise", "......", "LLMs, RAG, Fine Tuning", "AI")
-    iy += info_lh
-    info_tspans += info_line(iy, "Expertise", "....", "Spark, AWS, MLOps, Docker", "Infra")
-    iy += info_lh
-    info_tspans += info_line(iy, "Expertise", "....", "MongoDB, SQL, Data Pipelines", "Data")
+    info_tspans += info_line(iy, "Knowledge", "AWS, Docker, Jenkins", "Infra")
     iy += info_lh
     info_tspans += blank(iy)
     iy += info_lh
 
-    info_tspans += info_line(iy, "Research", "........", "Agentic AI, Multi-Modal LLMs")
+    info_tspans += info_line(iy, "Research", "Multi-Modal LLMs &amp; RAG", "Core")
     iy += info_lh
-    info_tspans += info_line(iy, "Research", "........", "RAG Systems, MCP Server, A2A")
-    iy += info_lh
-    info_tspans += blank(iy)
-    iy += info_lh
-
-    info_tspans += info_line(iy, "Tools", ".............", "PyTorch, TensorFlow, LangChain")
-    iy += info_lh
-    info_tspans += info_line(iy, "Cloud", ".............", "AWS, Docker, Kubernetes, Jenkins")
+    info_tspans += info_line(iy, "Research", "MCP Server, A2A Protocol", "Frontier")
     iy += info_lh * 2
 
-    # Contact section
-    info_tspans += section(iy, "- Contact", "—" * 24)
+    # GitHub Stats
+    info_tspans += section(iy, "- GitHub Stats")
     iy += info_lh
-    info_tspans += info_line(iy, "Email", "..................", "rahulsamantcoc2@gmail.com")
+    info_tspans += info_line(iy, "Open Source", "💚")
     iy += info_lh
-    info_tspans += info_line(iy, "LinkedIn", "...........................", "rahul-samant-kb37")
+    info_tspans += info_line(iy, "AI Research", "🔬")
     iy += info_lh
-    info_tspans += info_line(iy, "GitHub", ".............................", "rahulsamant37")
+    
+    # Lines of Code (Andrew6rant style)
+    # This requires custom markup for the colors, so we build it manually to fit INFO_WIDTH
+    loc_key = "Lines of Code on GitHub"
+    # Content: 446,276 ( 523,178++,  76,902-- )
+    # Let's count visible length: "446,276 ( 523,178++,  76,902-- )" = 33 chars
+    loc_val_len = 33
+    dots_needed = INFO_WIDTH - 2 - len(loc_key) - 1 - loc_val_len
+    dots = "." * max(1, dots_needed)
+    
+    info_tspans += row(iy,
+        f'<tspan class="cc">. </tspan>'
+        f'<tspan class="key">{loc_key}</tspan>:'
+        f'<tspan class="cc"> {dots}</tspan>'
+        f'<tspan class="value" id="loc_data">446,276</tspan> ( '
+        f'<tspan class="addColor" id="loc_add">523,178</tspan><tspan class="addColor">++</tspan>, '
+        f'<tspan class="delColor" id="loc_del">76,902</tspan><tspan class="delColor">--</tspan> )'
+    )
     iy += info_lh * 2
 
-    # GitHub Stats section
-    info_tspans += section(iy, "- GitHub Stats", "—" * 21)
+    # Contact
+    info_tspans += section(iy, "- Connect")
     iy += info_lh
-    info_tspans += info_line(iy, "Open Source", "...............................", "💚")
+    info_tspans += info_line(iy, "Email", "rahulsamantcoc2@gmail.com")
     iy += info_lh
-    info_tspans += info_line(iy, "AI Research", "...............................", "🔬")
+    info_tspans += info_line(iy, "LinkedIn", "rahul-samant-kb37")
+    iy += info_lh
+    info_tspans += info_line(iy, "GitHub", "rahulsamant37")
     iy += info_lh * 2
 
     # Motto
-    info_tspans += section(iy, "- Motto", "—" * 24)
+    info_tspans += section(iy, "- Motto")
     iy += info_lh
-    info_tspans += row(iy, f'<tspan class="cc">. </tspan><tspan class="value">Transforming data into intelligence! 🚀</tspan>')
+    
+    motto = "Transforming data into intelligence! 🚀"
+    dots_needed = INFO_WIDTH - 2 - len(motto)
+    dots = "." * max(1, dots_needed)
+    info_tspans += row(iy, f'<tspan class="cc">. {dots} </tspan><tspan class="value">{motto}</tspan>')
 
     svg = f"""<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg"
@@ -174,6 +195,8 @@ def generate_svg(ascii_lines, mode="dark"):
 .key  {{ fill: {key}; }}
 .value {{ fill: {val}; }}
 .cc   {{ fill: {cc}; }}
+.addColor {{ fill: {add_c}; }}
+.delColor {{ fill: {del_c}; }}
 text, tspan {{ white-space: pre; }}
 </style>
 <rect width="{canvas_w:.0f}" height="{canvas_h:.0f}" fill="{bg}" rx="12"/>
@@ -184,7 +207,6 @@ text, tspan {{ white-space: pre; }}
 </svg>
 """
     return svg
-
 
 if __name__ == "__main__":
     art_file = sys.argv[1] if len(sys.argv) > 1 else "ascii-art.txt"

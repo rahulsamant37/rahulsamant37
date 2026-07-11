@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg"
      font-family="ConsolasFallback,Consolas,Monaco,monospace"
-     viewBox="0 0 1197 650"
+     viewBox="0 0 1137 650"
      width="100%">
 <style>
 @font-face {
@@ -13,9 +13,11 @@
 .key  { fill: #0550ae; }
 .value { fill: #0a3069; }
 .cc   { fill: #6e7781; }
+.addColor { fill: #1a7f37; }
+.delColor { fill: #cf222e; }
 text, tspan { white-space: pre; }
 </style>
-<rect width="1197" height="650" fill="#ffffff" rx="12"/>
+<rect width="1137" height="650" fill="#ffffff" rx="12"/>
 <text x="8" y="16" fill="#24292f" font-size="8.5px">
 <tspan x="8" y="16.0">#####***#####%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@%%%%%%%%%%%%%%%%%%%%@@@@@@@@@%%%%%%%%%%####*</tspan>
 <tspan x="8" y="25.2">%############%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@%%%%%%%%%####</tspan>
@@ -87,33 +89,28 @@ text, tspan { white-space: pre; }
 <tspan x="8" y="632.4">@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
 </text>
 <text x="667" y="26" fill="#24292f" font-size="15px">
-<tspan x="667" y="26">rahul@samant</tspan>
-<tspan x="667" y="46">----------------------------------------------------------</tspan>
-<tspan x="667" y="66"><tspan class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">Data Scientist &amp; ML Engineer</tspan></tspan>
-<tspan x="667" y="86"><tspan class="cc">. </tspan><tspan class="key">Location</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">Building AI Agents 🌍</tspan></tspan>
-<tspan x="667" y="106"><tspan class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">VSCode, Cursor, Windsurf</tspan></tspan>
+<tspan x="667" y="26">rahulsamant37 ————————————————————————————————————</tspan>
+<tspan x="667" y="46"><tspan class="cc">. </tspan><tspan class="key">Class</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">Data Scientist &amp; ML Engineer</tspan></tspan>
+<tspan x="667" y="66"><tspan class="cc">. </tspan><tspan class="key">Quest</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">Architecting Agentic AI 🤖</tspan></tspan>
+<tspan x="667" y="86"><tspan class="cc">. </tspan><tspan class="key">Base</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">Building AI Agents 🌍</tspan></tspan>
+<tspan x="667" y="106"><tspan class="cc">. </tspan><tspan class="key">Weaponry</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">VSCode, Cursor, Windsurf</tspan></tspan>
 <tspan x="667" y="126"><tspan class="cc">. </tspan></tspan>
-<tspan x="667" y="146"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Code</tspan>:<tspan class="cc"> .. </tspan><tspan class="value">Python, JavaScript, SQL</tspan></tspan>
-<tspan x="667" y="166"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">AI</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">LLMs, GenAI, NLP, RAG</tspan></tspan>
-<tspan x="667" y="186"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">Hindi, English</tspan></tspan>
-<tspan x="667" y="206"><tspan class="cc">. </tspan></tspan>
-<tspan x="667" y="226"><tspan class="cc">. </tspan><tspan class="key">Expertise</tspan>.<tspan class="key">AI</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">LLMs, RAG, Fine Tuning</tspan></tspan>
-<tspan x="667" y="246"><tspan class="cc">. </tspan><tspan class="key">Expertise</tspan>.<tspan class="key">Infra</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">Spark, AWS, MLOps, Docker</tspan></tspan>
-<tspan x="667" y="266"><tspan class="cc">. </tspan><tspan class="key">Expertise</tspan>.<tspan class="key">Data</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">MongoDB, SQL, Data Pipelines</tspan></tspan>
-<tspan x="667" y="286"><tspan class="cc">. </tspan></tspan>
-<tspan x="667" y="306"><tspan class="cc">. </tspan><tspan class="key">Research</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">Agentic AI, Multi-Modal LLMs</tspan></tspan>
-<tspan x="667" y="326"><tspan class="cc">. </tspan><tspan class="key">Research</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">RAG Systems, MCP Server, A2A</tspan></tspan>
-<tspan x="667" y="346"><tspan class="cc">. </tspan></tspan>
-<tspan x="667" y="366"><tspan class="cc">. </tspan><tspan class="key">Tools</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">PyTorch, TensorFlow, LangChain</tspan></tspan>
-<tspan x="667" y="386"><tspan class="cc">. </tspan><tspan class="key">Cloud</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">AWS, Docker, Kubernetes, Jenkins</tspan></tspan>
-<tspan x="667" y="426">- Contact -————————————————————————-</tspan>
-<tspan x="667" y="446"><tspan class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">rahulsamantcoc2@gmail.com</tspan></tspan>
-<tspan x="667" y="466"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">rahul-samant-kb37</tspan></tspan>
-<tspan x="667" y="486"><tspan class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">rahulsamant37</tspan></tspan>
-<tspan x="667" y="526">- GitHub Stats -—————————————————————-</tspan>
-<tspan x="667" y="546"><tspan class="cc">. </tspan><tspan class="key">Open Source</tspan>:<tspan class="cc"> ............................... </tspan><tspan class="value">💚</tspan></tspan>
-<tspan x="667" y="566"><tspan class="cc">. </tspan><tspan class="key">AI Research</tspan>:<tspan class="cc"> ............................... </tspan><tspan class="value">🔬</tspan></tspan>
-<tspan x="667" y="606">- Motto -————————————————————————-</tspan>
-<tspan x="667" y="626"><tspan class="cc">. </tspan><tspan class="value">Transforming data into intelligence! 🚀</tspan></tspan>
+<tspan x="667" y="146"><tspan class="cc">. </tspan><tspan class="key">Knowledge</tspan>.<tspan class="key">Code</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">Python, SQL, JavaScript</tspan></tspan>
+<tspan x="667" y="166"><tspan class="cc">. </tspan><tspan class="key">Knowledge</tspan>.<tspan class="key">AI</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">LLMs, GenAI, NLP, RAG</tspan></tspan>
+<tspan x="667" y="186"><tspan class="cc">. </tspan><tspan class="key">Knowledge</tspan>.<tspan class="key">Magic</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">PyTorch, TensorFlow</tspan></tspan>
+<tspan x="667" y="206"><tspan class="cc">. </tspan><tspan class="key">Knowledge</tspan>.<tspan class="key">Infra</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">AWS, Docker, Jenkins</tspan></tspan>
+<tspan x="667" y="226"><tspan class="cc">. </tspan></tspan>
+<tspan x="667" y="246"><tspan class="cc">. </tspan><tspan class="key">Research</tspan>.<tspan class="key">Core</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">Multi-Modal LLMs &amp; RAG</tspan></tspan>
+<tspan x="667" y="266"><tspan class="cc">. </tspan><tspan class="key">Research</tspan>.<tspan class="key">Frontier</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">MCP Server, A2A Protocol</tspan></tspan>
+<tspan x="667" y="306">- GitHub Stats ———————————————————————————————————</tspan>
+<tspan x="667" y="326"><tspan class="cc">. </tspan><tspan class="key">Open Source</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value">💚</tspan></tspan>
+<tspan x="667" y="346"><tspan class="cc">. </tspan><tspan class="key">AI Research</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value">🔬</tspan></tspan>
+<tspan x="667" y="366"><tspan class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc"> .</tspan><tspan class="value" id="loc_data">446,276</tspan> ( <tspan class="addColor" id="loc_add">523,178</tspan><tspan class="addColor">++</tspan>, <tspan class="delColor" id="loc_del">76,902</tspan><tspan class="delColor">--</tspan> )</tspan>
+<tspan x="667" y="406">- Connect ————————————————————————————————————————</tspan>
+<tspan x="667" y="426"><tspan class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">rahulsamantcoc2@gmail.com</tspan></tspan>
+<tspan x="667" y="446"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">rahul-samant-kb37</tspan></tspan>
+<tspan x="667" y="466"><tspan class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">rahulsamant37</tspan></tspan>
+<tspan x="667" y="506">- Motto ——————————————————————————————————————————</tspan>
+<tspan x="667" y="526"><tspan class="cc">. .......... </tspan><tspan class="value">Transforming data into intelligence! 🚀</tspan></tspan>
 </text>
 </svg>
