@@ -39,6 +39,7 @@ public:
         education    = "MTech @ IIT Bombay";
         focus_areas  = {"R&D", "Quantitative Finance", "High-Frequency Trading"};
         core_stack   = {"C++20", "CUDA", "Python", "SQL"};
+        fundamentals = {"Operating Systems", "DBMS", "Computer Networks", "OOPs"};
         research     = {"Low-Latency Systems", "Order Book Dynamics", "AI in Quant"};
     }
     
@@ -57,6 +58,7 @@ int main() {
 ## 🔭 Current Trajectory
 
 - 🎓 **Academia:** Pursuing my **MTech at IIT Bombay**, diving deep into advanced algorithms and systems architecture.
+- 💻 **Fundamentals:** Strong foundation in core CS principles (OS, DBMS, CN, OOPs) honed through rigorous GATE CSE preparation.
 - ⚡ **Engineering:** Architecting **Low-Latency Systems** and optimizing core execution logic in C++ and CUDA.
 - 📈 **Quantitative:** Researching mathematical strategies and building frameworks for **High-Frequency Trading (HFT)**.
 - 🧠 **AI & R&D:** Bridging **Deep Learning/LLMs** with pure statistical modeling to build highly scalable infrastructure.
