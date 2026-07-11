@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg"
      font-family="ConsolasFallback,Consolas,Monaco,monospace"
-     viewBox="0 0 1097 650"
+     viewBox="0 0 1197 650"
      width="100%">
 <style>
 @font-face {
@@ -15,7 +15,7 @@
 .cc   { fill: #616e7f; }
 text, tspan { white-space: pre; }
 </style>
-<rect width="1097" height="650" fill="#161b22" rx="12"/>
+<rect width="1197" height="650" fill="#161b22" rx="12"/>
 <text x="8" y="16" fill="#c9d1d9" font-size="8.5px">
 <tspan x="8" y="16.0">#####***#####%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@%%%%%%%%%%%%%%%%%%%%@@@@@@@@@%%%%%%%%%%####*</tspan>
 <tspan x="8" y="25.2">%############%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@%%%%%%%%%####</tspan>
