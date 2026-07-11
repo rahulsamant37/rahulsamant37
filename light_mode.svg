@@ -10,37 +10,60 @@ size-adjust: 109%;
 }
 .key {fill: #0550ae;}
 .value {fill: #0a3069;}
+.addColor {fill: #1a7f37;}
+.delColor {fill: #cf222e;}
 .cc {fill: #6e7781;}
 text, tspan {white-space: pre;}
 </style>
 <rect width="985px" height="530px" fill="#ffffff" rx="15"/>
 <text x="15" y="30" fill="#24292f" class="ascii">
-<tspan x="15" y="30">@@@@@@@@@@@@@@@@@@@@@%%%%%@@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="50">@@@@@@@@@@%%%%%%%%@%%%%%%%#%%%%%%%@@@@@@@@@@@</tspan>
-<tspan x="15" y="70">@@%%%%%%%%%%%%%%%#****+=+#*#%%%%%%%%%%%@@@@@@</tspan>
-<tspan x="15" y="90">%%%%%%%%%%%%%%%%#+-++***++#%%%%%%%%%%%%%%%@@@</tspan>
-<tspan x="15" y="110">%%%%%%%%%%#######*=++++==########%%%%%%%%%%%@</tspan>
-<tspan x="15" y="130">%%%%%%%####*******=***==*****#######%%%%%%%%%</tspan>
-<tspan x="15" y="150">%%%######*+++*++++++++=+++++++***#####%%%%%%%</tspan>
-<tspan x="15" y="170">######***++++=+++-==+==++++++==+**#####%%%%%%</tspan>
-<tspan x="15" y="190">###*++=-=++*+=++*==+++*++*+*++==+**#####%%%%%</tspan>
-<tspan x="15" y="210">++*= . :*++#++++++**+**++#**+++=+++**####%%%%</tspan>
-<tspan x="15" y="230">::=::+-+***#*++**+*#**+#%#****=:=--+-=##*##++</tspan>
+<tspan x="15" y="30">                                          </tspan>
+<tspan x="15" y="50">                       .                  </tspan>
+<tspan x="15" y="70">                         &quot;                </tspan>
+<tspan x="15" y="90">                           t&gt;             </tspan>
+<tspan x="15" y="110">                            YC            </tspan>
+<tspan x="15" y="130">              |qakABBBU     pe            </tspan>
+<tspan x="15" y="150">        . IHBBBBBBBBBBBBBB  dBB&quot;          </tspan>
+<tspan x="15" y="170">         AB&amp;P  l   TBBBBBBm BB`           </tspan>
+<tspan x="15" y="190">        BBBB&amp;!![ aa &quot;p&quot; &quot;#B&amp;B             </tspan>
+<tspan x="15" y="210">       EBBBBBBBBBBYaB\&gt; fBB]              </tspan>
+<tspan x="15" y="230">       aBBB&amp;#WWBEA@BBBBB#BB               </tspan>
+<tspan x="15" y="250">  .     &gt;BB#W#%@B%HUOWB%BB] ` . ` .       </tspan>
+<tspan x="15" y="270">Iiii!i;l UB&amp;#%WsYMB%MB##BP +~i&gt;&gt;iii!l:`   </tspan>
+<tspan x="15" y="290">]]]]1{1-^MB8B&amp;BB#B%8HsBBB ([1111][[[]-_&gt;;^</tspan>
+<tspan x="15" y="310">txnn/|1x BB#&amp;&amp;BBBB#%B%BBlnttxttztft//|({?+</tspan>
+<tspan x="15" y="330">C0PCJJAh BB%8p]IzBM@BBO[z1hwddqwwhkaontf/1</tspan>
+<tspan x="15" y="350">TBWABpBBfz#8BZ.   1$BB&amp;$MBhpbLTbqdCGPmqont</tspan>
+<tspan x="15" y="370">1BBOY@CBBBhBW%#BBBBB&amp;B&gt;lBB&amp;B8#X%M8bGXUCbdw</tspan>
+<tspan x="15" y="390"> YBB@B!B#B$s@BBBBBBBBBBMB#XW#BBBBBBBHWQXTC</tspan>
+<tspan x="15" y="410">MBB%BBs#BWB#B8@BE$BAMB%B#xfG$&amp;B8BBBBBB%@&amp;D</tspan>
+<tspan x="15" y="430">BWb$#BBBB#BB88WMBBBMBBAWBBBBB%BW#C BB@%%%M</tspan>
+<tspan x="15" y="450">8BM BBE88#%%@BB8B%BBBECBB&amp;TBBBBBWB8BBBB%@#</tspan>
+<tspan x="15" y="470">8BBBTHB#BM#%#8BB@BBbMaBBB.BBBCHWUB#WBBB##M</tspan>
+<tspan x="15" y="490">MBAB&amp;.[fBBBWBB&amp;WBBHqBCBM{_8@YB.p|#@BBBB%#W</tspan>
+<tspan x="15" y="510">B8888:x x#88W#$WMkk PEBWDWM AMM&amp;&amp;&amp;&amp;Ba 88WM</tspan>
 </text>
 <text x="390" y="30" fill="#24292f">
 <tspan x="390" y="30">rahul@samant</tspan> -———————————————————————————————————————————-—-
-<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Data Scientist &amp; ML Engineer</tspan>
-<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Location</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">Building AI Agents 🌍</tspan>
-<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">Transforming data into intelligence!</tspan>
+<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Data Scientist &amp; ML Engineer</tspan>
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Location</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">Building AI Agents 🌍</tspan>
+<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Motto</tspan>:<tspan class="cc"> . </tspan><tspan class="value">Transforming ideas into intelligent solutions!</tspan>
 <tspan x="390" y="110" class="cc">. </tspan>
 <tspan x="390" y="130" class="cc">. </tspan><tspan class="key">Expertise</tspan>.<tspan class="key">AI/ML</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">LLMs, GenAI, NLP, RAG, Fine Tuning</tspan>
-<tspan x="390" y="150" class="cc">. </tspan><tspan class="key">Expertise</tspan>.<tspan class="key">Infra</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">Spark, AWS, MLOps</tspan>
-<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Expertise</tspan>.<tspan class="key">Data</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">DSA, MongoDB, SQL, Data Pipeline</tspan>
+<tspan x="390" y="150" class="cc">. </tspan><tspan class="key">Expertise</tspan>.<tspan class="key">Infra</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">Spark, AWS, MLOps</tspan>
+<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Expertise</tspan>.<tspan class="key">Data</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">DSA, MongoDB, SQL, Data Pipeline</tspan>
 <tspan x="390" y="190" class="cc">. </tspan>
-<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Current_Research</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">Agentic AI, Multi-Modal LLMs</tspan>
-<tspan x="390" y="230" class="cc">. </tspan><tspan class="key">Current_Research</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">RAG Systems, MCP Server, A2A Protocol</tspan>
-<tspan x="390" y="270">- Contact</tspan> -——————————————————————————————————————————————-—-
-<tspan x="390" y="290" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">rahulsamantcoc2@gmail.com</tspan>
-<tspan x="390" y="310" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">rahul-samant-kb37</tspan>
+<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Research</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">Agentic AI, Multi-Modal LLMs, RAG</tspan>
+<tspan x="390" y="230" class="cc">. </tspan><tspan class="key">Research</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">MCP Server, A2A Protocol</tspan>
+<tspan x="390" y="250" class="cc">. </tspan>
+<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Tools</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">PyTorch, TensorFlow, LangChain, HF</tspan>
+<tspan x="390" y="290" class="cc">. </tspan><tspan class="key">Cloud</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">AWS, Docker, Kubernetes, Jenkins</tspan>
+<tspan x="390" y="330">- Contact</tspan> -——————————————————————————————————————————————-—-
+<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">rahulsamantcoc2@gmail.com</tspan>
+<tspan x="390" y="370" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">rahul-samant-kb37</tspan>
+<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ................................. </tspan><tspan class="value">rahulsamant37</tspan>
+<tspan x="390" y="430">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
+<tspan x="390" y="450" class="cc">. </tspan><tspan class="key">Open Source</tspan>:<tspan class="cc"> ..................................... </tspan><tspan class="value">💚</tspan>
+<tspan x="390" y="470" class="cc">. </tspan><tspan class="key">AI Research</tspan>:<tspan class="cc"> ..................................... </tspan><tspan class="value">🔬</tspan>
 </text>
 </svg>
